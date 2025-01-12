@@ -1,9 +1,13 @@
 import { ReactNode } from 'react';
 
-const dictionaries = {
-  en: () => import('../../dictionaries/en.json').then((module) => module.default),
-  cs: () => import('../../dictionaries/cs.json').then((module) => module.default),
-};
+// const dictionaries = {
+//   en: () => import('../../dictionaries/en.json').then((module) => module.default),
+//   cs: () => import('../../dictionaries/cs.json').then((module) => module.default),
+// };
+
+type Params = Promise<{
+    lang: string;
+}>;
 
 export async function generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'cs' }];
@@ -14,12 +18,12 @@ export default async function RootLayout({
   params,
 }: {
   children: ReactNode;
-  params: { lang: string };
+  params: Params;
 }) {
-  const dictionary = await dictionaries[params.lang as keyof typeof dictionaries]();
+  const { lang } = await params
 
   return (
-    <html lang={params.lang}>
+    <html lang={lang}>
       <body>{children}</body>
     </html>
   );

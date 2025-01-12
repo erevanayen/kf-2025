@@ -1,16 +1,19 @@
-import { ReactNode } from 'react';
-
 const dictionaries = {
   en: () => import('../../dictionaries/en.json').then((module) => module.default),
   cs: () => import('../../dictionaries/cs.json').then((module) => module.default),
 };
 
+type Params = Promise<{
+    lang: string;
+}>;
+
 export default async function Page({ 
   params 
 }: { 
-  params: { lang: string } 
+  params: Params
 }) {
-  const dictionary = await dictionaries[params.lang as keyof typeof dictionaries]();
+  const { lang } = await params
+  const dictionary = await dictionaries[lang as keyof typeof dictionaries]();
 
   return (
     <div>
