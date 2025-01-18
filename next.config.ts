@@ -2,8 +2,8 @@
 const nextConfig = {
   /* config options here */
   output: "export",
-  basePath: "/kf-25",
-  assetPrefix: "/kf-25",
+  basePath: "/kf-25-website",
+  assetPrefix: "/kf-25-website",
 };
 
 module.exports = nextConfig;
