@@ -20,11 +20,6 @@ export const metadata: Metadata = {
     initialScale: 1,
     maximumScale: 1,
   },
-  icons: {
-    icon: [
-      { url: '/kysuce-fav.png' },
-    ],
-  }
 };
 
 export default function RootLayout({
