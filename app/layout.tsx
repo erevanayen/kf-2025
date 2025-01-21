@@ -11,15 +11,15 @@ const robotoMono = Roboto_Mono({
 export const metadata: Metadata = {
   title: "Kysuce Freeride 2025",
   description: "Downhill skateboarding event in Svrčinovec, Slovakia",
-  metadataBase: new URL("https://kysucefreeride.com"),
+  metadataBase: new URL("https://kysucedownhill.com"),
   openGraph: {
     title: "Kysuce Freeride 2025",
     description: "Join an epic downhill skateboarding event in Svrčinovec, Slovakia",
-    url: "https://kysucefreeride.com",
+    url: "https://kysucedownhill.com",
     siteName: "Kysuce Freeride 2025",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://kysucedownhill.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Downhill Skateboarding Action"
