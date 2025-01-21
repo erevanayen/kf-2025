@@ -5,5 +5,10 @@
   "location": {
     "village": "Svrčinovec",
     "country": "Slovensko"
-  }
+  },
+  "heroPhoto": {
+    "rider": "jezdec:",
+    "photoBy": "fotograf:"
+  },
+  "info": "další informace již brzo"
 }

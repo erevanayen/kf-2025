@@ -48,6 +48,29 @@
   object-fit: contain;
 }
 
+.riderImageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.riderText {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  text-align: right;
+  color: white;
+}
+
+.riderTextContent {
+  font-size: .8rem;
+}
+
+.riderLink {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .heroText {
   /* Using this to accurately align the text under the FREERIDE logo */
   width: calc(650px * 810/650);
@@ -73,6 +96,9 @@
     width: calc(350px * 810/650);
     font-size: 2rem;
   }
+  .riderTextContent {
+    font-size: .5rem;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -91,6 +117,9 @@
   .heroText {
     width: calc(200px * 810/650);
     font-size: 1rem;
+  }
+  .riderTextContent {
+    font-size: .3rem;
   }
 }
 

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import styles from './page.module.css';
+import Link from 'next/link';
 
 interface Dictionary {
   welcome: string;
@@ -12,6 +13,11 @@ interface Dictionary {
     village: string;
     country: string;
   };
+  heroPhoto: {
+    rider: string;
+    photoBy: string;
+  },
+  info: string
 }
 
 const dictionaries = {
@@ -87,15 +93,34 @@ export default function Home() {
             <div>{dictionary.date}</div>
             <div>{dictionary.location.village}</div>
             <div>{dictionary.location.country}</div>
+            <div>{'_'}{dictionary.info}</div>
           </div>
         </div>
-        <Image
-          src="/rider-image.jpg"
-          alt="Rider"
-          width={1920}
-          height={1360}
-          className={styles.riderImage}
-        ></Image>
+        <div className={styles.riderImageContainer}>
+          <Image
+            src="/rider-image.jpg"
+            alt="Rider"
+            width={1920}
+            height={1360}
+            className={styles.riderImage}
+          />
+          <div className={styles.riderText}>
+            <div className={styles.riderTextContent}>
+              {dictionary.heroPhoto.rider}
+              {' '}
+              <Link href="https://www.instagram.com/janrys212/" target="_blank" className={styles.riderLink}>
+                Jan Ryšavý
+              </Link>
+            </div>
+            <div className={styles.riderTextContent}>
+              {dictionary.heroPhoto.photoBy}
+              {' '}
+              <Link href="https://www.instagram.com/jsemvandrak/" target="_blank" className={styles.riderLink}>
+                Honza Dobiášovský
+              </Link>
+            </div>
+          </div>
+        </div>
         <div className={styles.content}>
         </div>
       </div>
