@@ -1,4 +1,9 @@
 {
   "welcome": "Vítejte",
-  "description": "Toto je česká verze stránky"
+  "description": "Toto je česká verze stránky",
+  "date": "14.-15. ČERVEN 2025",
+  "location": {
+    "village": "Svrčinovec",
+    "country": "Slovensko"
+  }
 }

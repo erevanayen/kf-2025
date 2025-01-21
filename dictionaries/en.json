@@ -1,4 +1,9 @@
 {
   "welcome": "Welcome",
-  "description": "This is the English version of the site"
+  "description": "This is the English version of the site",
+  "date": "14.-15. JUNE 2025",
+  "location": {
+    "village": "Svrčinovec",
+    "country": "Slovakia"
+  }
 }
