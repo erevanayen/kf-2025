@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kysuce Freeride 2025",
     description: "Join an epic downhill skateboarding event in Svrčinovec, Slovakia",
-    images: ["/og-image.jpg"]
+    images: ["/og-image.png"]
   },
   viewport: {
     width: "device-width",
