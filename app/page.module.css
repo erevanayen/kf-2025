@@ -1,7 +1,46 @@
 /* Base styles */
+
+.text1 {
+  font-size: 3rem;
+}
+
+.text2 {
+  font-size: 2rem;
+}
+
 .container {
   position: relative;
   /* min-height: 100vh; */
+}
+
+.uniformWidth {
+  /* Using this to accurately align the text under the FREERIDE logo */
+  width: calc(650px * 810/650);
+}
+
+.sponsorsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sponsorsText {
+  font-size: 2rem;
+}
+
+.sponsorsImageContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 70px;
+  gap: 1rem;
+}
+
+.sponsorsImage {
+  max-height: 100%;
+  max-width: 100%;
+  aspect-ratio: 510/168;
+  object-fit: contain;
 }
 
 .heroContainer {
@@ -75,14 +114,16 @@
   /* Using this to accurately align the text under the FREERIDE logo */
   width: calc(650px * 810/650);
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
+
 /* Tablet Breakpoint */
 @media screen and (max-width: 1024px) {
   .heroSection {
     height: 500px;
   }
-  .heroText {
+
+  .uniformWidth {
     width: calc(500px * 810/650);
   }
 }
@@ -92,12 +133,26 @@
   .heroSection {
     height: 350px;
   }
-  .heroText {
-    width: calc(350px * 810/650);
+
+  .text1 {
     font-size: 2rem;
   }
+
+  .text2 {
+    font-size: 1.5rem;
+  }
+
+  .uniformWidth {
+    width: calc(350px * 810/650);
+  }
+
   .riderTextContent {
     font-size: .5rem;
+  }
+
+  .sponsorsImageContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 70px 70px;
   }
 }
 
@@ -105,8 +160,18 @@
   .heroSection {
     height: 280px;
   }
-  .heroText {
+
+  .uniformWidth {
     width: calc(280px * 810/650);
+  }
+
+  .text2 {
+    font-size: 1rem;
+  }
+
+  .sponsorsImageContainer {
+    grid-template-rows: 50px 50px;
+    gap: .5rem;
   }
 }
 
@@ -114,10 +179,15 @@
   .heroSection {
     height: 200px;
   }
-  .heroText {
-    width: calc(200px * 810/650);
+
+  .text1 {
     font-size: 1rem;
   }
+
+  .uniformWidth {
+    width: calc(200px * 810/650);
+  }
+
   .riderTextContent {
     font-size: .3rem;
   }

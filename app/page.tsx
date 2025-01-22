@@ -17,7 +17,9 @@ interface Dictionary {
     rider: string;
     photoBy: string;
   },
-  info: string
+  info: string;
+  follow: string;
+  sponsors: string;
 }
 
 const dictionaries = {
@@ -89,11 +91,50 @@ export default function Home() {
               className={styles.heroSideImage}
             />
           </div>
-          <div className={styles.heroText}>
+          <div className={`${styles.heroText} ${styles.uniformWidth} ${styles.text1}`}>
             <div>{dictionary.date}</div>
             <div>{dictionary.location.village}</div>
             <div>{dictionary.location.country}</div>
-            <div>{'_'}{dictionary.info}</div>
+            <div className={styles.text2}>{'_'}{dictionary.info}</div>
+            <div className={styles.text2}>{'_'}{dictionary.follow}{`: `}
+              <Link href="https://www.instagram.com/kysucedownhill/" target="_blank" className={styles.riderLink}>instagram</Link>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.sponsorsContainer}`}>
+          <div className={`${styles.sponsorsText} ${styles.uniformWidth} ${styles.text2}`}>
+            {`_`}
+            {dictionary.sponsors}
+            {`:`}
+          </div>
+          <div className={`${styles.sponsorsImageContainer} ${styles.uniformWidth}`}>
+            <Link href="https://www.instagram.com/happy_board_co/" target="_blank">
+              <Image
+                src="/sponsor-happy.png"
+                alt="Sponsor Happy Board co."
+                width={510}
+                height={168}
+                className={styles.sponsorsImage}
+              />
+            </Link>
+            <Link href="https://rocketlongboards.ch/" target="_blank">
+              <Image
+                src="/sponsor-rocket.png"
+                alt="Sponsor Rocket Longboards"
+                width={510}
+                height={168}
+                className={styles.sponsorsImage}
+              />
+            </Link>
+            <Link href="https://www.sickboards.nl/" target="_blank">
+              <Image
+                src="/sponsor-sick.png"
+                alt="Sponsor Sick Boards"
+                width={510}
+                height={168}
+                className={styles.sponsorsImage}
+              />
+            </Link>
           </div>
         </div>
         <div className={styles.riderImageContainer}>
