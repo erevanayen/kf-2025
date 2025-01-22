@@ -123,16 +123,6 @@
   }
 }
 
-/* Large Screen Breakpoint */
-@media screen and (min-width: 1440px) {
-  .heroSection {
-    height: 750px;
-  }
-  .heroText {
-    width: calc(750px * 810/650);
-  }
-}
-
 .content {
   max-width: 64rem;
   margin: 0 auto;
