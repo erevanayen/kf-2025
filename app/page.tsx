@@ -20,6 +20,7 @@ interface Dictionary {
   info: string;
   follow: string;
   sponsors: string;
+  videos: string;
 }
 
 const dictionaries = {
@@ -135,6 +136,41 @@ export default function Home() {
                 className={styles.sponsorsImage}
               />
             </Link>
+          </div>
+        </div>
+        <div className={styles.videosContainer}>
+          <div className={`${styles.videosText} ${styles.uniformWidth} ${styles.text2}`}>
+            {`_`}
+            {dictionary.videos}
+            {`:`}
+          </div>
+          <div className={`${styles.videosEmbedContainer} ${styles.uniformWidth}`}>
+            <div>
+              <div className={`${styles.videoYearTitle} ${styles.text2}`}>
+                {`_2024`}
+              </div>
+              <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/AYt0bBpkLHU" 
+                title="Kysuce Freeride 2024" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div>
+              <div className={`${styles.videoYearTitle} ${styles.text2}`}>
+                {`_2023`}
+              </div>
+              <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/757oHJKKOeA" 
+                title="Kysuce Freeride 2023" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
         <div className={styles.riderImageContainer}>
