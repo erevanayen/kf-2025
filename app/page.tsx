@@ -136,6 +136,24 @@ export default function Home() {
                 className={styles.sponsorsImage}
               />
             </Link>
+            <Link href="https://www.instagram.com/_skatetech_/" target="_blank">
+              <Image
+                src="/sponsor-skatetech.png"
+                alt="Sponsor Skatetech"
+                width={510}
+                height={168}
+                className={styles.sponsorsImage}
+              />
+            </Link>
+            <Link href="https://www.urethaneburners.com/" target="_blank">
+              <Image
+                src="/sponsor-ub.png"
+                alt="Sponsor Urethane Burners"
+                width={510}
+                height={168}
+                className={styles.sponsorsImage}
+              />
+            </Link>
           </div>
         </div>
         <div className={styles.videosContainer}>
@@ -149,12 +167,12 @@ export default function Home() {
               <div className={`${styles.videoYearTitle} ${styles.text2}`}>
                 {`_2024`}
               </div>
-              <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/AYt0bBpkLHU" 
-                title="Kysuce Freeride 2024" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/AYt0bBpkLHU"
+                title="Kysuce Freeride 2024"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
@@ -162,12 +180,12 @@ export default function Home() {
               <div className={`${styles.videoYearTitle} ${styles.text2}`}>
                 {`_2023`}
               </div>
-              <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/757oHJKKOeA" 
-                title="Kysuce Freeride 2023" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/757oHJKKOeA"
+                title="Kysuce Freeride 2023"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
