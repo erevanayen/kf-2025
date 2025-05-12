@@ -13,5 +13,33 @@
   "info": "more info coming soon",
   "follow": "follow us on",
   "sponsors": "made possible with the help of",
-  "videos": "check out previous years"
+  "videos": "check out previous years",
+  "whatYouNeed": {
+    "title":"What you'll need",
+    "mandatory": {
+      "title": "mandatory",
+      "helmet": "helmet",
+      "gloves": "gloves",
+      "signed": "signed documents, more in section",
+      "documents": "Documents"
+    },
+    "optional": {
+      "title": "optional",
+      "skateboard": "skateboard",
+      "protection": "knee pads"
+    }
+  },
+  "documents": {
+    "title": "Documents",
+    "desc1": "Every rider will need a signed safety waiver and a GDPR consent form.",
+    "desc2": "Riders under 18 years will need these documents signed by their legal guardian.",
+    "desc3": "If you bring filled-in documents, your signing process will be faster.",
+    "desc4": "You can download the documents here",
+    "desc5": "GDPR guidelines for reference (you don't need to bring this)",
+    "safetyAdult": "Safety waiver (adult)",
+    "safetyMinor": "Safety waiver (minor)",
+    "gdprAdult": "GDPR consent form (adult)",
+    "gdprMinor": "GDPR consent form (minor)",
+    "gdprGuidelines": "GDPR guidelines"
+  }
 }

@@ -8,9 +8,30 @@
   font-size: 2rem;
 }
 
+.text3 {
+  font-size: 1.5rem;
+}
+
+.textRed {
+  background-color: red;
+  color: black;
+}
+
+.colRed {
+  color: red;
+}
+
+.mT {
+  margin-top: 1rem;
+}
+
 .container {
   position: relative;
   /* min-height: 100vh; */
+}
+
+.subList {
+  padding-left: 2rem;
 }
 
 .uniformWidth {

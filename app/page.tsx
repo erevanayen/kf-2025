@@ -21,6 +21,34 @@ interface Dictionary {
   follow: string;
   sponsors: string;
   videos: string;
+  whatYouNeed: {
+    title: string;
+    mandatory: {
+      title: string;
+      helmet: string;
+      gloves: string;
+      signed: string;
+      documents: string;
+    };
+    optional: {
+      title: string;
+      skateboard: string;
+      protection: string;
+    };
+  };
+  documents: {
+    title: string;
+    desc1: string;
+    desc2: string;
+    desc3: string;
+    desc4: string;
+    desc5: string;
+    safetyAdult: string;
+    safetyMinor: string;
+    gdprAdult: string;
+    gdprMinor: string;
+    gdprGuidelines: string;
+  };
 }
 
 const dictionaries = {
@@ -96,14 +124,68 @@ export default function Home() {
             <div>{dictionary.date}</div>
             <div>{dictionary.location.village}</div>
             <div>{dictionary.location.country}</div>
-            <div className={styles.text2}>{'_'}{dictionary.info}</div>
-            <div className={styles.text2}>{'_'}{dictionary.follow}{`: `}
+            <div className={`${styles.text2} ${styles.textRed} ${styles.mT}`}>{'_'}{dictionary.whatYouNeed.title}:</div>
+            <div className={styles.text2}>{dictionary.whatYouNeed.mandatory.title}:</div>
+            <ul className={styles.subList}>
+              <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.helmet}</li>
+              <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.gloves}</li>
+              <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.signed} <Link href="#documents" className={`${styles.colRed}`}>{dictionary.whatYouNeed.mandatory.documents}</Link></li>
+            </ul>
+            <div className={styles.text2}>{dictionary.whatYouNeed.optional.title}:</div>
+            <ul className={styles.subList}>
+              <li className={styles.text3}>{dictionary.whatYouNeed.optional.skateboard}</li>
+              <li className={styles.text3}>{dictionary.whatYouNeed.optional.protection}</li>
+            </ul>
+            <div className={`${styles.text2} ${styles.mT}`}>{'_'}{dictionary.follow}{`: `}
               <Link href="https://www.instagram.com/kysucedownhill/" target="_blank" className={styles.riderLink}>instagram</Link>
             </div>
           </div>
         </div>
+        <div className={styles.heroContainer} id="documents">
+          <div className={styles.uniformWidth}>
+          <div className={`${styles.text2} ${styles.mT} ${styles.textRed}`}>
+            {`_`}
+            {dictionary.documents.title}
+            {`:`}
+          </div>
+          <div className={`${styles.text3} ${styles.mT}`}>
+            {dictionary.documents.desc1}
+          </div>
+          <div className={`${styles.text3} ${styles.mT}`}>
+            {dictionary.documents.desc2}
+          </div>
+          <div className={`${styles.text3} ${styles.mT}`}>
+            {dictionary.documents.desc3}
+          </div>
+          <div className={`${styles.text3} ${styles.mT}`}>
+            {dictionary.documents.desc4}
+          </div>
+          <ul className={styles.subList}>
+            <li className={styles.text3}>
+              <Link href="/documents/safety-adult.pdf" download className={styles.colRed}>{dictionary.documents.safetyAdult}</Link>
+            </li>
+            <li className={styles.text3}>
+              <Link href="/documents/safety-minor.pdf" download className={styles.colRed}>{dictionary.documents.safetyMinor}</Link>
+            </li>
+            <li className={styles.text3}>
+              <Link href="/documents/gdpr-adult.pdf" download className={styles.colRed}>{dictionary.documents.gdprAdult}</Link>
+            </li>
+            <li className={styles.text3}>
+              <Link href="/documents/gdpr-minor.pdf" download className={styles.colRed}>{dictionary.documents.gdprMinor}</Link>
+            </li>
+          </ul>
+          <div className={`${styles.text3} ${styles.mT}`}>
+            {dictionary.documents.desc5}
+          </div>
+          <ul className={styles.subList}>
+            <li className={styles.text3}>
+              <Link href="/documents/gdpr-guidelines.pdf" download className={styles.colRed}>{dictionary.documents.gdprGuidelines}</Link>
+            </li>
+          </ul>
+          </div>
+        </div>
         <div className={`${styles.sponsorsContainer}`}>
-          <div className={`${styles.sponsorsText} ${styles.uniformWidth} ${styles.text2}`}>
+          <div className={`${styles.sponsorsText} ${styles.uniformWidth} ${styles.text2} ${styles.mT} ${styles.textRed}`}>
             {`_`}
             {dictionary.sponsors}
             {`:`}
