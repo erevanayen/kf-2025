@@ -30,7 +30,6 @@
  color: red;
  border: 2px solid red;
  padding: 0px 1rem;
- margin-top: 1rem;
 }
 
 .mT {
@@ -216,6 +215,10 @@
 
   .text2 {
     font-size: 1.5rem;
+  }
+
+  .text3 {
+    font-size: 1rem;
   }
 
   .uniformWidth {

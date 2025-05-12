@@ -131,24 +131,36 @@ export default function Home() {
             <div>{dictionary.date}</div>
             <div>{dictionary.location.village}</div>
             <div>{dictionary.location.country}</div>
-            <Link href={buyTicketsUrl[locale]} className={styles.buyTickets}>{dictionary.buyTickets}</Link>
-            <div className={`${styles.text2} ${styles.textRed} ${styles.mT}`}>{'_'}{dictionary.whatYouNeed.title}:</div>
-            <div className={styles.text2}>{dictionary.whatYouNeed.mandatory.title}:</div>
-            <ul className={styles.subList}>
-              <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.helmet}</li>
-              <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.gloves}</li>
-              <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.signed} <Link href="#documents" className={`${styles.colRed}`}>{dictionary.whatYouNeed.mandatory.documents}</Link></li>
+          </div>
+        </div>
+
+        <div className={`${styles.heroContainer}`}>
+          <div className={`${styles.uniformWidth}`}>
+            <Link href={buyTicketsUrl[locale]} className={`${styles.buyTickets} ${styles.text1}`}>{dictionary.buyTickets}</Link>
+            <div className={`${styles.text2} ${styles.mT}`}>{'_'}{dictionary.follow}{`: `}
+              <Link href="https://www.instagram.com/kysucedownhill/" target="_blank" className={styles.riderLink}>instagram</Link>
+            </div>
+          </div>
+        </div>
+
+        <div className={`${styles.heroContainer}`}>
+          <div className={`${styles.uniformWidth}`}>
+          <div className={`${styles.text2} ${styles.textRed} ${styles.mT}`}>{'_'}{dictionary.whatYouNeed.title}:</div>
+          <div className={styles.text2}>{dictionary.whatYouNeed.mandatory.title}:</div>
+          <ul className={styles.subList}>
+            <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.helmet}</li>
+            <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.gloves}</li>
+            <li className={styles.text3}>{dictionary.whatYouNeed.mandatory.signed} <Link href="#documents" className={`${styles.colRed}`}>{dictionary.whatYouNeed.mandatory.documents}</Link></li>
             </ul>
             <div className={styles.text2}>{dictionary.whatYouNeed.optional.title}:</div>
             <ul className={styles.subList}>
               <li className={styles.text3}>{dictionary.whatYouNeed.optional.skateboard}</li>
               <li className={styles.text3}>{dictionary.whatYouNeed.optional.protection}</li>
             </ul>
-            <div className={`${styles.text2} ${styles.mT}`}>{'_'}{dictionary.follow}{`: `}
-              <Link href="https://www.instagram.com/kysucedownhill/" target="_blank" className={styles.riderLink}>instagram</Link>
-            </div>
           </div>
         </div>
+
+
         <div className={styles.heroContainer} id="documents">
           <div className={styles.uniformWidth}>
           <div className={`${styles.text2} ${styles.mT} ${styles.textRed}`}>
