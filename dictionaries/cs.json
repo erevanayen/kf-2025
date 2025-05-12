@@ -35,11 +35,12 @@
     "desc2": "Jezdci pod 18 let budou potřebovat tyto dokumenty podepsané svým legálním zástupcem.",
     "desc3": "Pokud přinesete vyplněné dokumenty, bude vaše registrace rychlejší.",
     "desc4": "Dokumenty ke stažení zde",
-    "desc5": "GDPR směrnice pro referenci (není potřeba tisknout)",
+    "desc5": "GDPR směrnice a propozice pro referenci (není potřeba tisknout)",
     "safetyAdult": "Prohlášení k odpovědnosti (dospělý)",
     "safetyMinor": "Prohlášení k odpovědnosti (nezletilý)",
     "gdprAdult": "GDPR souhlas (dospělý)",
     "gdprMinor": "GDPR souhlas (nezletilý)",
-    "gdprGuidelines": "GDPR směrnice"
+    "gdprGuidelines": "GDPR směrnice",
+    "guidelines": "propozice"
   }
 }

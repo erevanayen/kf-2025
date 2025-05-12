@@ -48,6 +48,7 @@ interface Dictionary {
     gdprAdult: string;
     gdprMinor: string;
     gdprGuidelines: string;
+    guidelines: string;
   };
 }
 
@@ -180,6 +181,9 @@ export default function Home() {
           <ul className={styles.subList}>
             <li className={styles.text3}>
               <Link href="/documents/gdpr-guidelines.pdf" download className={styles.colRed}>{dictionary.documents.gdprGuidelines}</Link>
+            </li>
+            <li className={styles.text3}>
+              <Link href="/documents/propozicia.pdf" download className={styles.colRed}>{dictionary.documents.guidelines}</Link>
             </li>
           </ul>
           </div>

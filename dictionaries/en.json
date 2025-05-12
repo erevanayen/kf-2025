@@ -35,11 +35,12 @@
     "desc2": "Riders under 18 years will need these documents signed by their legal guardian.",
     "desc3": "If you bring filled-in documents, your signing process will be faster.",
     "desc4": "You can download the documents here",
-    "desc5": "GDPR guidelines for reference (you don't need to bring this)",
+    "desc5": "GDPR and general guidelines for reference (you don't need to bring this)",
     "safetyAdult": "Safety waiver (adult)",
     "safetyMinor": "Safety waiver (minor)",
     "gdprAdult": "GDPR consent form (adult)",
     "gdprMinor": "GDPR consent form (minor)",
-    "gdprGuidelines": "GDPR guidelines"
+    "gdprGuidelines": "GDPR guidelines",
+    "guidelines": "guidelines"
   }
 }
