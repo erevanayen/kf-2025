@@ -2,6 +2,7 @@
   --background: #000000;
   --foreground: #ffffff;
   --font-roboto-mono: 'Roboto Mono', monospace;
+  --color-primary: #4cffff;
 }
 
 @media (prefers-color-scheme: dark) {

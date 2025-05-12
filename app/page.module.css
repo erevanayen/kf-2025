@@ -15,10 +15,22 @@
 .textRed {
   background-color: red;
   color: black;
+  font-weight: bold;
 }
 
 .colRed {
   color: red;
+}
+
+.buyTickets {
+ text-transform: uppercase; 
+ text-decoration: none;
+ font-weight: bold;
+ /* color: var(--color-primary); */
+ color: red;
+ border: 2px solid red;
+ padding: 0px 1rem;
+ margin-top: 1rem;
 }
 
 .mT {

@@ -50,11 +50,17 @@ interface Dictionary {
     gdprGuidelines: string;
     guidelines: string;
   };
+  buyTickets: string;
 }
 
 const dictionaries = {
   en: () => import('../dictionaries/en.json').then((module) => module.default),
   cs: () => import('../dictionaries/cs.json').then((module) => module.default),
+};
+
+const buyTicketsUrl = {
+  en: `https://goout.net/en/kysuce-freeride-2025/szwdgux/`,
+  cs: `https://goout.net/sk/kysuce-freeride-2025/szwdgux/`,
 };
 
 const languageNames = {
@@ -125,6 +131,7 @@ export default function Home() {
             <div>{dictionary.date}</div>
             <div>{dictionary.location.village}</div>
             <div>{dictionary.location.country}</div>
+            <Link href={buyTicketsUrl[locale]} className={styles.buyTickets}>{dictionary.buyTickets}</Link>
             <div className={`${styles.text2} ${styles.textRed} ${styles.mT}`}>{'_'}{dictionary.whatYouNeed.title}:</div>
             <div className={styles.text2}>{dictionary.whatYouNeed.mandatory.title}:</div>
             <ul className={styles.subList}>
