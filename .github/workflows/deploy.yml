@@ -17,16 +17,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          node-version: 20
+          bun-version: 1.2.15
       
       - name: Install Dependencies
-        run: npm ci
+        run: bun install
       
       - name: Build
-        run: npm run deploy
+        run: bun run deploy
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
