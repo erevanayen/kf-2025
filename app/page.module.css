@@ -1,283 +1,283 @@
 /* Base styles */
 
 .text1 {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 .text2 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 .text3 {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .textRed {
-  background-color: red;
-  color: black;
-  font-weight: bold;
+	background-color: red;
+	color: black;
+	font-weight: bold;
 }
 
 .colRed {
-  color: red;
+	color: red;
 }
 
 .buyTickets {
- text-transform: uppercase; 
- text-decoration: none;
- font-weight: bold;
- /* color: var(--color-primary); */
- color: red;
- border: 2px solid red;
- padding: 0px 1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	/* color: var(--color-primary); */
+	color: red;
+	border: 2px solid red;
+	padding: 0px 1rem;
 }
 
 .mT {
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 .container {
-  position: relative;
-  /* min-height: 100vh; */
+	position: relative;
+	/* min-height: 100vh; */
 }
 
 .subList {
-  padding-left: 2rem;
+	padding-left: 2rem;
 }
 
 .uniformWidth {
-  /* Using this to accurately align the text under the FREERIDE logo */
-  width: calc(650px * 810/650);
+	/* Using this to accurately align the text under the FREERIDE logo */
+	width: calc(650px * 810 / 650);
 }
 
 .sponsorsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 1rem;
 }
 
 .sponsorsText {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 .sponsorsImageContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 70px;
-  gap: 1rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 70px;
+	gap: 1rem;
 }
 
 .sponsorsImage {
-  max-height: 100%;
-  max-width: 100%;
-  aspect-ratio: 510/168;
-  object-fit: contain;
+	max-height: 100%;
+	max-width: 100%;
+	aspect-ratio: 510 / 168;
+	object-fit: contain;
 }
 
 .heroContainer {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* min-height: 100vh; */
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* min-height: 100vh; */
 }
 
 .heroSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 650px;
-  margin-top: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 650px;
+	margin-top: 10vh;
 }
 
 .heroCenterImage {
-  max-width: 900px;
-  height: 100%;
-  object-fit: contain;
-  aspect-ratio: 18/13;
+	max-width: 900px;
+	height: 100%;
+	object-fit: contain;
+	aspect-ratio: 18 / 13;
 }
 
 .heroSideImage {
-  aspect-ratio: 172/65;
-  height: 100%;
-  object-fit: contain;
+	aspect-ratio: 172 / 65;
+	height: 100%;
+	object-fit: contain;
 }
 
 .languageSelector {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  z-index: 10;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	z-index: 10;
 }
 
 .riderImage {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 192/136;
-  object-fit: contain;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 192 / 136;
+	object-fit: contain;
 }
 
 .riderImageContainer {
-  position: relative;
-  width: 100%;
+	position: relative;
+	width: 100%;
 }
 
 .riderText {
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  text-align: right;
-  color: white;
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	text-align: right;
+	color: white;
 }
 
 .riderTextContent {
-  font-size: .8rem;
+	font-size: .8rem;
 }
 
 .riderLink {
-  color: inherit;
-  font-weight: bold;
-  text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .heroText {
-  /* Using this to accurately align the text under the FREERIDE logo */
-  width: calc(650px * 810/650);
-  font-size: 3rem;
-  margin-bottom: 1rem;
+	/* Using this to accurately align the text under the FREERIDE logo */
+	width: calc(650px * 810 / 650);
+	font-size: 3rem;
+	margin-bottom: 1rem;
 }
 
 .videosContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 1rem;
 }
 
 .videosText {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 .videosEmbedContainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  justify-items: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+	justify-items: center;
 }
 
 .videosEmbedContainer > div {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .videosEmbedContainer iframe {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  max-width: 1000px;
-  border: 0px;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;
+	max-width: 1000px;
+	border: 0px;
 }
 
 .videoYearTitle {
-  font-size: 2rem;
-  text-align: left;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  color: inherit;
-  width: 100%;
-  max-width: 1000px;
+	font-size: 2rem;
+	text-align: left;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+	color: inherit;
+	width: 100%;
+	max-width: 1000px;
 }
 
 /* Tablet Breakpoint */
 @media screen and (max-width: 1024px) {
-  .heroSection {
-    height: 500px;
-  }
+	.heroSection {
+		height: 500px;
+	}
 
-  .uniformWidth {
-    width: calc(500px * 810/650);
-  }
+	.uniformWidth {
+		width: calc(500px * 810 / 650);
+	}
 }
 
 /* Mobile Breakpoint */
 @media screen and (max-width: 640px) {
-  .heroSection {
-    height: 350px;
-  }
+	.heroSection {
+		height: 350px;
+	}
 
-  .text1 {
-    font-size: 2rem;
-  }
+	.text1 {
+		font-size: 2rem;
+	}
 
-  .text2 {
-    font-size: 1.5rem;
-  }
+	.text2 {
+		font-size: 1.5rem;
+	}
 
-  .text3 {
-    font-size: 1rem;
-  }
+	.text3 {
+		font-size: 1rem;
+	}
 
-  .uniformWidth {
-    width: calc(350px * 810/650);
-  }
+	.uniformWidth {
+		width: calc(350px * 810 / 650);
+	}
 
-  .riderTextContent {
-    font-size: .5rem;
-  }
+	.riderTextContent {
+		font-size: .5rem;
+	}
 
-  .sponsorsImageContainer {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 70px 70px;
-  }
+	.sponsorsImageContainer {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 70px 70px;
+	}
 
-  .videosText {
-    font-size: 1.5rem;
-  }
+	.videosText {
+		font-size: 1.5rem;
+	}
 }
 
 @media screen and (max-width: 530px) {
-  .heroSection {
-    height: 280px;
-  }
+	.heroSection {
+		height: 280px;
+	}
 
-  .uniformWidth {
-    width: calc(280px * 810/650);
-  }
+	.uniformWidth {
+		width: calc(280px * 810 / 650);
+	}
 
-  .text2 {
-    font-size: 1rem;
-  }
+	.text2 {
+		font-size: 1rem;
+	}
 
-  .sponsorsImageContainer {
-    grid-template-rows: 50px 50px;
-    gap: .5rem;
-  }
+	.sponsorsImageContainer {
+		grid-template-rows: 50px 50px;
+		gap: .5rem;
+	}
 }
 
 @media screen and (max-width: 400px) {
-  .heroSection {
-    height: 200px;
-  }
+	.heroSection {
+		height: 200px;
+	}
 
-  .text1 {
-    font-size: 1rem;
-  }
+	.text1 {
+		font-size: 1rem;
+	}
 
-  .uniformWidth {
-    width: calc(200px * 810/650);
-  }
+	.uniformWidth {
+		width: calc(200px * 810 / 650);
+	}
 
-  .riderTextContent {
-    font-size: .3rem;
-  }
+	.riderTextContent {
+		font-size: .3rem;
+	}
 }
 
 .content {
-  max-width: 64rem;
-  margin: 0 auto;
-  text-align: center;
+	max-width: 64rem;
+	margin: 0 auto;
+	text-align: center;
 }
