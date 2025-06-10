@@ -21,8 +21,19 @@ export interface Dictionary {
 			desc1: string;
 			here: string;
 		};
-		camp: string;
-		food: string;
+		camp: {
+			title: string;
+			desc1: string;
+			showers: string;
+		};
+		parking: {
+			title: string;
+			desc1: string;
+		};
+		food: {
+			title: string;
+			desc: string;
+		};
 	};
 	whatYouNeed: {
 		title: string;

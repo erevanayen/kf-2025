@@ -21,8 +21,19 @@
 			"desc1": "the track is located",
 			"here": "here"
 		},
-		"camp": "camp",
-		"food": "food"
+		"camp": {
+			"title": "camp",
+			"desc1": "a camp site will be provided for all attendees right next to the track",
+			"showers": "showers will be provided on Saturday in the nearby sports stadium TJ Beskyd Svrčinovec"
+		},
+		"parking": {
+			"title": "parking",
+			"desc1": "parking will be provided for all attendees right next to the track"
+		},
+		"food": {
+			"title": "food",
+			"desc": ""
+		}
 	},
 	"whatYouNeed": {
 		"title": "What you'll need",

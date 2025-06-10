@@ -131,8 +131,21 @@ export default function Home() {
 								</Link>
 							</li>
 						</ul>
-						<div className={styles.text2}>{dictionary.organisation.camp}</div>
-						<div className={styles.text2}>{dictionary.organisation.food}</div>
+						<div className={styles.text2}>{dictionary.organisation.camp.title}</div>
+						<ul className={styles.subList}>
+							<li className={styles.text3}>
+								{dictionary.organisation.camp.desc1}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.camp.showers}
+							</li>
+						</ul>
+						<div className={styles.text2}>{dictionary.organisation.parking.title}</div>
+						<ul className={styles.subList}>
+							<li className={styles.text3}>
+								{dictionary.organisation.parking.desc1}
+							</li>
+						</ul>
 					</div>
 				</div>
 

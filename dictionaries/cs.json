@@ -21,8 +21,19 @@
 			"desc1": "trať se nachází",
 			"here": "zde"
 		},
-		"camp": "kemp",
-		"food": "jídlo"
+		"camp": {
+			"title": "kemp",
+			"desc1": "poblíž trati se bude nacházet místo pro kempování pro všechny účastníky",
+			"showers": "v sobotu bude pro účastníky taky poskytnuta sprcha v nedalekém sportovním stadionu TJ Beskyd Svrčinovec"
+		},
+		"parking": {
+			"title": "parkování",
+			"desc1": "parkovací místo se bude nacházet přímo vedle trati"
+		},
+		"food": {
+			"title": "jídlo",
+			"desc": ""
+		}
 	},
 	"whatYouNeed": {
 		"title": "Co potřebujete",
