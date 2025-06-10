@@ -126,12 +126,18 @@ export default function Home() {
 						<ul className={styles.subList}>
 							<li className={styles.text3}>
 								{dictionary.organisation.location.desc1}{" "}
-								<Link href="#documents" className={`${styles.colRed}`}>
+								<Link
+									href="https://maps.app.goo.gl/fB6piNML6SmUUwTx7"
+									target="_blank"
+									className={`${styles.colRed}`}
+								>
 									{dictionary.organisation.location.here}
 								</Link>
 							</li>
 						</ul>
-						<div className={styles.text2}>{dictionary.organisation.camp.title}</div>
+						<div className={styles.text2}>
+							{dictionary.organisation.camp.title}
+						</div>
 						<ul className={styles.subList}>
 							<li className={styles.text3}>
 								{dictionary.organisation.camp.desc1}
@@ -140,7 +146,9 @@ export default function Home() {
 								{dictionary.organisation.camp.showers}
 							</li>
 						</ul>
-						<div className={styles.text2}>{dictionary.organisation.parking.title}</div>
+						<div className={styles.text2}>
+							{dictionary.organisation.parking.title}
+						</div>
 						<ul className={styles.subList}>
 							<li className={styles.text3}>
 								{dictionary.organisation.parking.desc1}
