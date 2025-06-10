@@ -4,54 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import styles from './page.module.css';
 import Link from 'next/link';
-
-interface Dictionary {
-  welcome: string;
-  description: string;
-  date: string;
-  location: {
-    village: string;
-    country: string;
-  };
-  heroPhoto: {
-    rider: string;
-    photoBy: string;
-  },
-  info: string;
-  follow: string;
-  sponsors: string;
-  videos: string;
-  whatYouNeed: {
-    title: string;
-    mandatory: {
-      title: string;
-      helmet: string;
-      gloves: string;
-      signed: string;
-      documents: string;
-    };
-    optional: {
-      title: string;
-      skateboard: string;
-      protection: string;
-    };
-  };
-  documents: {
-    title: string;
-    desc1: string;
-    desc2: string;
-    desc3: string;
-    desc4: string;
-    desc5: string;
-    safetyAdult: string;
-    safetyMinor: string;
-    gdprAdult: string;
-    gdprMinor: string;
-    gdprGuidelines: string;
-    guidelines: string;
-  };
-  buyTickets: string;
-}
+import { Dictionary } from '../dictionaries/interfaces';
 
 const dictionaries = {
   en: () => import('../dictionaries/en.json').then((module) => module.default),
@@ -140,6 +93,24 @@ export default function Home() {
             <div className={`${styles.text2} ${styles.mT}`}>{'_'}{dictionary.follow}{`: `}
               <Link href="https://www.instagram.com/kysucedownhill/" target="_blank" className={styles.riderLink}>instagram</Link>
             </div>
+          </div>
+        </div>
+
+        <div className={`${styles.heroContainer}`}>
+          <div className={`${styles.uniformWidth}`}>
+            <div className={`${styles.text2} ${styles.mT} ${styles.textRed}`}>
+              {`_`}
+              {dictionary.organisation.title}
+              {`:`}
+            </div>
+            <div className={styles.text2}>{dictionary.organisation.location.title}</div>
+            <ul className={styles.subList}>
+              <li className={styles.text3}>
+                {dictionary.organisation.location.desc1} <Link href="#documents" className={`${styles.colRed}`}>{dictionary.organisation.location.here}</Link>
+              </li>
+            </ul>
+            <div className={styles.text2}>{dictionary.organisation.camp}</div>
+            <div className={styles.text2}>{dictionary.organisation.food}</div>
           </div>
         </div>
 

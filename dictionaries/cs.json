@@ -14,6 +14,16 @@
   "follow": "sleduj nás na",
   "sponsors": "uspořádáno s pomocí",
   "videos": "podívejte se na předchozí ročníky",
+  "organisation": {
+    "title": "organizace",
+    "location": {
+      "title": "lokace",
+      "desc1": "trať se nachází",
+      "here": "zde"
+    },
+    "camp": "kemp",
+    "food": "jídlo"
+  },
   "whatYouNeed": {
     "title":"Co potřebujete",
     "mandatory": {
