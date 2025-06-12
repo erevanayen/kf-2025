@@ -335,6 +335,42 @@ export default function Home() {
 								className={styles.sponsorsImage}
 							/>
 						</Link>
+						<Link href="https://www.svrcinovec.sk/" target="_blank">
+							<Image
+								src="/sponsor-svrcinovec.png"
+								alt="Sponsor Svrčinovec"
+								width={510}
+								height={168}
+								className={styles.sponsorsImage}
+							/>
+						</Link>
+						<Link href="https://www.mestocadca.sk/" target="_blank">
+							<Image
+								src="/sponsor-cadca.png"
+								alt="Sponsor Mesto Čadca"
+								width={510}
+								height={168}
+								className={styles.sponsorsImage}
+							/>
+						</Link>
+						<Link href="https://ndsas.sk/" target="_blank">
+							<Image
+								src="/sponsor-nds.png"
+								alt="Sponsor NDSAS"
+								width={510}
+								height={168}
+								className={styles.sponsorsImage}
+							/>
+						</Link>
+						<Link href="https://www.ssc.sk/" target="_blank">
+							<Image
+								src="/sponsor-ssc.png"
+								alt="Sponsor SSC"
+								width={510}
+								height={168}
+								className={styles.sponsorsImage}
+							/>
+						</Link>
 					</div>
 				</div>
 				<div className={styles.videosContainer}>
