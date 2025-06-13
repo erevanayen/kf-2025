@@ -16,6 +16,19 @@
 	"videos": "check out previous years",
 	"organisation": {
 		"title": "organisation",
+		"schedule": {
+			"title": "schedule",
+			"rego": "rider registration begins at 08:00 on Saturday on the track",
+			"sunday": "sunday",
+			"saturday": "saturday",
+			"saturdayStart": "rides on saturday begin at 09:00 or after end of registration",
+			"saturdayEnd": "rides on saturday end at 17:00",
+			"sundayStart": "rides on sunday begin at 09:00",
+			"sundayEnd": "rides on sunday end at 17:00",
+			"lunch": "lunch break is planned for 12:00, you can order food from the organizer",
+			"competition": "slide competition will be held on saturday afternoon",
+			"seeMore": "see more"
+		},
 		"location": {
 			"title": "location",
 			"desc1": "the track is located",
@@ -32,7 +45,12 @@
 		},
 		"food": {
 			"title": "food",
-			"desc": ""
+			"desc1": "we offer an option to order food from a local restaurant via the organizer",
+			"desc2": "orders are going to be accepted until 10:00 on both days",
+			"desc3": "view the menu",
+			"desc4": "prices are in CZK",
+			"desc5": "please bring exact ammounts or pay via Revolut",
+			"here": "here"
 		}
 	},
 	"whatYouNeed": {

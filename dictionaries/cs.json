@@ -16,6 +16,19 @@
 	"videos": "podívejte se na předchozí ročníky",
 	"organisation": {
 		"title": "organizace",
+		"schedule": {
+			"title": "program",
+			"rego": "registrace začíná v sobotu v 8:00 na trati",
+			"sunday": "neděle",
+			"saturday": "sobota",
+			"saturdayStart": "jízdy začínají v sobotu v 9:00 nebo po ukončení registrace",
+			"saturdayEnd": "jízdy končí v sobotu v 17:00",
+			"sundayStart": "jízdy začínají v neděli v 9:00",
+			"sundayEnd": "jízdy končí v neděli v 17:00",
+			"lunch": "přestávka na oběd je plánovaná v 12:00, můžete si objednat jídlo u organizátora",
+			"competition": "slide soutěž se koná v sobotu odpoledne",
+			"seeMore": "více informací"
+		},
 		"location": {
 			"title": "lokace",
 			"desc1": "trať se nachází",
@@ -32,7 +45,12 @@
 		},
 		"food": {
 			"title": "jídlo",
-			"desc": ""
+			"desc1": "oba dny poskytneme možnost objednat si jídlo u organizátora",
+			"desc2": "objednávky budou přijímány do 10:00 oba dny",
+			"desc3": "menu je",
+			"desc4": "ceny jsou v CZK",
+			"desc5": "přineste si prosím přesné množství peněz nebo plaťte přes Revolut",
+			"here": "zde"
 		}
 	},
 	"whatYouNeed": {

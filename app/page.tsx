@@ -121,6 +121,35 @@ export default function Home() {
 							{":"}
 						</div>
 						<div className={styles.text2}>
+							{dictionary.organisation.schedule.title}
+						</div>
+						<ul className={styles.subList}>
+							<li className={styles.text3}>
+								{dictionary.organisation.schedule.rego}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.schedule.saturdayStart}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.schedule.saturdayEnd}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.schedule.sundayStart}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.schedule.sundayEnd}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.schedule.lunch}{" "}
+								<Link href="#food" className={`${styles.colRed}`}>
+									{dictionary.organisation.schedule.seeMore}
+								</Link>
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.schedule.competition}
+							</li>
+						</ul>
+						<div className={styles.text2}>
 							{dictionary.organisation.location.title}
 						</div>
 						<ul className={styles.subList}>
@@ -189,6 +218,39 @@ export default function Home() {
 							</li>
 							<li className={styles.text3}>
 								{dictionary.whatYouNeed.optional.protection}
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div className={`${styles.heroContainer}`} id="food">
+					<div className={`${styles.uniformWidth}`}>
+						<div className={`${styles.text2} ${styles.textRed} ${styles.mT}`}>
+							{"_"}
+							{dictionary.organisation.food.title}:
+						</div>
+						<ul className={styles.subList}>
+							<li className={styles.text3}>
+								{dictionary.organisation.food.desc1}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.food.desc2}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.food.desc3}{" "}
+								<Link
+									href="/documents/jidelni-listek.pdf"
+									target="_blank"
+									className={`${styles.colRed}`}
+								>
+									{dictionary.organisation.location.here}
+								</Link>
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.food.desc4}
+							</li>
+							<li className={styles.text3}>
+								{dictionary.organisation.food.desc5}
 							</li>
 						</ul>
 					</div>

@@ -16,6 +16,19 @@ export interface Dictionary {
 	videos: string;
 	organisation: {
 		title: string;
+		schedule: {
+			title: string;
+			rego: string;
+			sunday: string;
+			saturday: string;
+			saturdayStart: string;
+			saturdayEnd: string;
+			sundayStart: string;
+			sundayEnd: string;
+			lunch: string;
+			competition: string;
+			seeMore: string;
+		},
 		location: {
 			title: string;
 			desc1: string;
@@ -32,7 +45,12 @@ export interface Dictionary {
 		};
 		food: {
 			title: string;
-			desc: string;
+			desc1: string;
+			desc2: string;
+			desc3: string;
+			desc4: string;
+			desc5: string;
+			here: string;
 		};
 	};
 	whatYouNeed: {
