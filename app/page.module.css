@@ -107,10 +107,10 @@
 }
 
 .languageSelector {
-	position: absolute;
+	position: fixed;
 	top: 1rem;
 	right: 1rem;
-	z-index: 10;
+	z-index: 1000;
 }
 
 .riderImage {
