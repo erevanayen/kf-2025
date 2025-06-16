@@ -14,6 +14,11 @@ export interface Dictionary {
 	follow: string;
 	sponsors: string;
 	videos: string;
+	thanks: {
+		title: string;
+		desc1: string;
+		desc2: string;
+	},
 	organisation: {
 		title: string;
 		schedule: {

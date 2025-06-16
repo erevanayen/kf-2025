@@ -14,6 +14,11 @@
 	"follow": "sleduj nás na",
 	"sponsors": "uspořádáno s pomocí",
 	"videos": "podívejte se na předchozí ročníky",
+	"thanks": {
+		"title": "Děkujeme všem za účast!",
+		"desc1": "Doufáme, že jste si to užili!",
+		"desc2": "Fotky budou brzy dostupné."
+	},
 	"organisation": {
 		"title": "organizace",
 		"schedule": {
