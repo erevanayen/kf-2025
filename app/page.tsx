@@ -12,11 +12,6 @@ const dictionaries = {
 	cs: () => import("../dictionaries/cs.json").then((module) => module.default),
 };
 
-const buyTicketsUrl = {
-	en: "https://goout.net/en/kysuce-freeride-2025/szwdgux/",
-	cs: "https://goout.net/sk/kysuce-freeride-2025/szwdgux/",
-};
-
 const languageNames = {
 	en: "English",
 	cs: "Čeština",
