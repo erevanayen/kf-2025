@@ -19,6 +19,12 @@
 		"desc1": "Doufáme, že jste si to užili!",
 		"desc2": "Fotky budou brzy dostupné."
 	},
+	"media": {
+		"title": "fotky a videa",
+		"desc1": "podívejte se na fotky a videa z tohoto roku",
+		"desc2": "všechný obsah je určen pouze pro osobní použití, prosím kontaktujte autora pro komerční účely",
+		"desc3": "nezapomeňte tagovat autory"
+	},
 	"organisation": {
 		"title": "organizace",
 		"schedule": {

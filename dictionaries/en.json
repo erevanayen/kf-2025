@@ -19,6 +19,12 @@
 		"desc1": "We hope you had a great time!",
 		"desc2": "Photos will be available soon."
 	},
+	"media": {
+		"title": "photos and videos",
+		"desc1": "check out the photos and videos from this year",
+		"desc2": "all content is for personal use only, please contact the respective creators for commercial use",
+		"desc3": "make sure to tag the creators when sharing the content"
+	},
 	"organisation": {
 		"title": "organisation",
 		"schedule": {

@@ -32,8 +32,17 @@
 	padding: 0px 1rem;
 }
 
+.creatorDiv {
+	border: 2px solid red;
+	padding: 1rem;
+}
+
 .mT {
 	margin-top: 1rem;
+}
+
+.mR {
+	margin-right: 1rem;
 }
 
 .container {

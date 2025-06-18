@@ -109,6 +109,61 @@ export default function Home() {
 					</div>
 				</div>
 
+				<div className={`${styles.heroContainer}`}>
+					<div className={`${styles.uniformWidth}`}>
+						<div className={`${styles.text2} ${styles.mT} ${styles.textRed}`}>
+							{"_"}
+							{dictionary.media.title}
+							{":"}
+						</div>
+						<ul className={`${styles.subList} ${styles.text3} ${styles.mT}`}>
+							<li>{dictionary.media.desc2}</li>
+							<li>{dictionary.media.desc3}</li>
+						</ul>
+						<div className={`${styles.creatorDiv} ${styles.mT}`}>
+							<div className={`${styles.text2}`}>
+								<Link
+									href="https://www.instagram.com/filip.raszyk/"
+									target="_blank"
+									className={styles.riderLink}
+								>
+									{"@filip.raszyk"}
+								</Link>
+							</div>
+							<div className={`${styles.text2} ${styles.mT}`}>
+								<Link
+									href="https://photos.google.com/share/AF1QipMpmwTaXrSiv9zbPWNEbpvX768auncqJLPsjxjcmZowAdX1W_1BzdMaEivTsOStTw?key=LU5WVTU2Z2FMSU10RWlIdVhySXFXOGJUZTF2LVRn"
+									target="_blank"
+									className={styles.riderLink}
+								>
+									{"[photos]"}
+								</Link>
+							</div>
+						</div>
+
+						<div className={`${styles.creatorDiv} ${styles.mT}`}>
+							<div className={`${styles.text2}`}>
+								<Link
+									href="https://www.instagram.com/jeszipeti/"
+									target="_blank"
+									className={styles.riderLink}
+								>
+									{"@jeszipeti"}
+								</Link>
+							</div>
+							<div className={`${styles.text2} ${styles.mT}`}>
+								<Link
+									href="https://drive.google.com/drive/folders/1Dy7XqEtOV5JMssnUD68tKu9X7RitAAdh"
+									target="_blank"
+									className={styles.riderLink}
+								>
+									{"[photos]"}
+								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<div className={`${styles.sponsorsContainer}`}>
 					<div
 						className={`${styles.sponsorsText} ${styles.uniformWidth} ${styles.text2} ${styles.mT} ${styles.textRed}`}
