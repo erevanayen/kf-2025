@@ -93,7 +93,6 @@ export default function Home() {
 						<div className={`${styles.text2} ${styles.mT}`}>
 							{dictionary.thanks.desc1}
 						</div>
-						<div className={styles.text3}>{dictionary.thanks.desc2}</div>
 						<div className={`${styles.text2} ${styles.mT}`}>
 							{"_"}
 							{dictionary.follow}
@@ -118,6 +117,7 @@ export default function Home() {
 						</div>
 						<ul className={`${styles.subList} ${styles.text3} ${styles.mT}`}>
 							<li>{dictionary.media.desc2}</li>
+							<li>{dictionary.media.desc3}</li>
 						</ul>
 						<div className={`${styles.creatorDiv} ${styles.mT}`}>
 							<div className={`${styles.text2}`}>
