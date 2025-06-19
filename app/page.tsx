@@ -118,7 +118,6 @@ export default function Home() {
 						</div>
 						<ul className={`${styles.subList} ${styles.text3} ${styles.mT}`}>
 							<li>{dictionary.media.desc2}</li>
-							<li>{dictionary.media.desc3}</li>
 						</ul>
 						<div className={`${styles.creatorDiv} ${styles.mT}`}>
 							<div className={`${styles.text2}`}>
