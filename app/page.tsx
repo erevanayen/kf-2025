@@ -123,6 +123,27 @@ export default function Home() {
 						<div className={`${styles.creatorDiv} ${styles.mT}`}>
 							<div className={`${styles.text2}`}>
 								<Link
+									href="https://www.instagram.com/jsemvandrak/"
+									target="_blank"
+									className={styles.riderLink}
+								>
+									{"@jsemvandrak"}
+								</Link>
+							</div>
+							<div className={`${styles.text2} ${styles.mT}`}>
+								<Link
+									href="https://drive.google.com/drive/folders/1kGD5_YDfGTpIuR-b4GDofy2-ekN9BlND"
+									target="_blank"
+									className={styles.riderLink}
+								>
+									{"[photos]"}
+								</Link>
+							</div>
+						</div>
+
+						<div className={`${styles.creatorDiv} ${styles.mT}`}>
+							<div className={`${styles.text2}`}>
+								<Link
 									href="https://www.instagram.com/filip.raszyk/"
 									target="_blank"
 									className={styles.riderLink}
